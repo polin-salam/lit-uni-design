@@ -1,0 +1,21 @@
+{
+    "name": "Retail managment System",
+    "short_name": "RMS2",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#2A3443",
+    "description": "Retail managment system",
+    "theme_color": "#2A3443",
+    "icons": [
+      {
+        "src": "./img/icons/192-icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/512-icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
