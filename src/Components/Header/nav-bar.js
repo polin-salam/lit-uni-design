@@ -4,25 +4,25 @@ import { css, html, LitElement } from "lit-element";
 class NavBar extends LitElement {
     static get styles() {
         return css`
-        .homeheder{
-            height: 50px;
-            display: grid;
-            width: 99.9%;
-            background-color:#EFF5FB;
-            align-items: center;
-            padding-top:10px;
-            border:non;
+.homeheder{
+   height: 50px;
+   display: grid;
+   width: 99.9%;
+   background-color:#EFF5FB;
+   align-items: center;
+   padding-top:10px;
+   border:non;
 
             }
-            header >a{
-               float: right;
-               margin-left: 20px;
-               font-family: 'Roboto', sans-serif;
-               margin-right: 10px;
-               text-decoration: none;
-               letter-spacing: 0.02em;
-               color: black;
-               cursor:pointer
+header >a{
+    float: right;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: black;
+    cursor:pointer
             }
         `
     }
