@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit-element'; 
 import {LoginStyle} from '../css/loginStyle.js'
 import '../Components/Toast/lit-toast.js';
-import "./test-login.js"
+
 import { Router } from '@vaadin/router';
 class Login extends LitElement { 
 

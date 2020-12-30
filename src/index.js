@@ -1,5 +1,5 @@
 import './styles.css';
-import './Views/login-view.js';
+import './Components/Header/nav-bar';
 import {initRouter} from './Components/Router/router'
 import { interceptNetworkRequests } from './Components/@guard/network-intercept';
    
